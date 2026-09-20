@@ -52,3 +52,9 @@ Thirdly, I used nslookup to resolve the domain name to its IP address. After tha
 
 Fourthly, I used curl -I to inspect the HTTP response headers. This provided additional information about the web application and exposed the WordPress REST API endpoint /wp-json/.
 ![Curl result](Screenshot_curl.png)
+
+Fifth, I used wafw00f to determine whether a Web Application Firewall was protecting the website, and the result identified Mod Security (Spider Labs).
+![Wafw00f result](Screenshot_wafw00f.png)
+
+Finally, I used dnsrecon to enumerate DNS records. The results provided information relating to name servers, mail servers, SPF/TXT records, service records, and DNS software information.
+![Dnsrecon result](Screenshot_dnsrecon.png)
