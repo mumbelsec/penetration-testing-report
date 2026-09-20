@@ -44,7 +44,8 @@ I used the following Linux tools to perform reconnaissance on the NetworkWalks d
 Firstly, I used whois to obtain publicly available domain registration information and identify the domain’s name servers. The results provided information about the domain registration and hosting infrastructure.
 ![Whois lookup result](Screenshot_whois.png)
 
-Thirdly, I used nslookup to resolve the domain name to its IP address. After that, I proceeded to the next step.
-![Nslookup result](Screenshot_nslookup.png)
 Secondly, I used whatweb to identify the technologies used by the website. After that, I proceeded to the third step.
 ![Whatweb scan result](Screenshot_whatweb.png)
+
+Thirdly, I used nslookup to resolve the domain name to its IP address. After that, I proceeded to the next step.
+![Nslookup result](Screenshot_nslookup.png)
