@@ -49,3 +49,6 @@ Secondly, I used whatweb to identify the technologies used by the website. After
 
 Thirdly, I used nslookup to resolve the domain name to its IP address. After that, I proceeded to the next step.
 ![Nslookup result](Screenshot_nslookup.png)
+
+Fourthly, I used curl -I to inspect the HTTP response headers. This provided additional information about the web application and exposed the WordPress REST API endpoint /wp-json/.
+![Curl result](Screenshot_curl.png)
