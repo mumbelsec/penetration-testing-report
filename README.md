@@ -66,3 +66,4 @@ For the second phase, I used Zenmap to scan my local network. The practical requ
 I first used the Windows `ipconfig` command to identify my local IP address and LAN. I then entered the subnet into Zenmap and selected **Ping Scan** to identify active hosts.
 
 After completing the scan, I opened the **Topology** section in Zenmap, enabled the legend, and saved the network topology in PDF format as required by the practical task.
+![Zenmap ping scan result](zenmap.jpg)
