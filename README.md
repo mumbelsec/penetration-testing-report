@@ -41,3 +41,4 @@ This report covers the footprinting of the NetworkWalks domain, using multiple K
 
 I used the following Linux tools to perform reconnaissance on the NetworkWalks domain: whois, whatweb, nslookup, curl -I, wafw00f, and dnsrecon -d. All of these tools were used to collect different information.
 Firstly, I used whois to obtain publicly available domain registration information and identify the domain’s name servers. The results provided information about the domain registration and hosting infrastructure.
+![Whois lookup result](whois.jpg)
