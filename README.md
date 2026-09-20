@@ -20,3 +20,17 @@ This assessment is strictly carried out within the scope authorized by the clien
 ## 2. Introduction
 
 This report covers the footprinting of the NetworkWalks domain, using multiple Kali Linux tools, and also the scanning results of my local IP address using Zenmap. This report has two steps which show how attackers move from gathering information from public sources to mapping live hosts on a network. The footprinting was done using Linux, while the scanning was done using Zenmap installed on a Windows device.
+
+## 3. Tools Used
+
+| Tools | Purpose |
+|---|---|
+| Kali Linux & Windows | Operating systems used for reconnaissance activities. |
+| whois | Find domain registration details (name, dates, servers). |
+| whatweb | Fingerprint web technologies (server, CMS, plugins, IP). |
+| nslookup | Resolve the domain name to its IP address using DNS. |
+| curl -I | Read the HTTP response headers of the website. |
+| wafw00f | Detect whether a Web Application Firewall protects the site. |
+| dnsrecon -d | Enumerate all DNS records (NS, MX, SPF, TXT, and SRV). |
+| Zenmap (Nmap GUI) | Scan the local subnet to find live hosts, IPs, and MAC addresses. |
+| Windows cmd | Identification of local IP and MAC address. |
