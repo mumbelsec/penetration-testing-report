@@ -34,3 +34,9 @@ This report covers the footprinting of the NetworkWalks domain, using multiple K
 | dnsrecon -d | Enumerate all DNS records (NS, MX, SPF, TXT, and SRV). |
 | Zenmap (Nmap GUI) | Scan the local subnet to find live hosts, IPs, and MAC addresses. |
 | Windows cmd | Identification of local IP and MAC address. |
+
+## 4. Footprinting
+
+### 4.1 Activities Performed
+
+I used the following Linux tools to perform reconnaissance on the NetworkWalks domain: whois, whatweb, nslookup, curl -I, wafw00f, and dnsrecon -d. All of these tools were used to collect different information.
