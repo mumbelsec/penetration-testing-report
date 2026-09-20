@@ -67,3 +67,20 @@ I first used the Windows `ipconfig` command to identify my local IP address and 
 
 After completing the scan, I opened the **Topology** section in Zenmap, enabled the legend, and saved the network topology in PDF format as required by the practical task.
 ![Zenmap ping scan result](zenmap.jpg)
+
+## 5. Risk Analysis / Impact
+
+Based on the information collected during the footprinting and network scanning activities, I identified the following potential risks.
+
+| S/N | Risk/Finding | Evidence/Observation | Potential Impact | Risk Level |
+|---|---|---|---|---|
+| 1 | Web technology information exposed | whatweb identified WordPress and WP Download Manager | Attackers use exposed technology/version information to identify software requiring further security review | 🟠 Medium |
+| 2 | Server IP address identifiable | nslookup resolved the domain to its IP address | Knowledge of the server IP may assist further reconnaissance or direct targeting | 🟡 Low |
+| 3 | HTTP technical information exposed | curl -I returned HTTP response headers and exposed /wp-json/ | May assist technology fingerprinting and further enumeration | 🟡 Low |
+| 4 | WAF technology identifiable | wafw00f identified Mod Security (Spider Labs) | Knowledge of the WAF in use may help attackers craft bypass techniques | 🟡 Low |
+| 5 | DNS infrastructure information exposed | dnsrecon enumerated NS, MX, SPF/TXT, and SRV records | DNS information can help build a broader infrastructure profile | 🟠 Medium |
+| 6 | Multiple live hosts visible on local network | Zenmap identified four live hosts on the local network | Unauthorized devices may potentially be present on the network | 🟠 Medium |
+
+**Risk level key:** 🔴 Critical &nbsp;&nbsp; 🟠 Medium &nbsp;&nbsp; 🟡 Low
+
+The risks above are observations from the footprinting and scanning exercises, not confirmed vulnerabilities. The practical exercises primarily involved information gathering and host discovery. No exploitation or vulnerability validation was performed. Further authorized security testing would be required to confirm any actual vulnerability.
