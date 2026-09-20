@@ -58,3 +58,11 @@ Fifth, I used wafw00f to determine whether a Web Application Firewall was protec
 
 Finally, I used dnsrecon to enumerate DNS records. The results provided information relating to name servers, mail servers, SPF/TXT records, service records, and DNS software information.
 ![Dnsrecon result](Screenshot_dnsrecon.png)
+
+### 4.2 Network Scanning with Zenmap
+
+For the second phase, I used Zenmap to scan my local network. The practical required me to identify my local IP address and subnet, discover live hosts, identify their IP and MAC addresses, and generate a network topology.
+
+I first used the Windows `ipconfig` command to identify my local IP address and LAN. I then entered the subnet into Zenmap and selected **Ping Scan** to identify active hosts.
+
+After completing the scan, I opened the **Topology** section in Zenmap, enabled the legend, and saved the network topology in PDF format as required by the practical task.
