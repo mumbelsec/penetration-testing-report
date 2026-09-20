@@ -12,3 +12,7 @@ Penetration testing report - Footprinting and Scanning Phase (NetworkWalks)
 | **Client/Target** | 1. Networkwalks<br>2. My own local LAN Network |
 | **Permission Secured from Client?** | Yes |
 | **Phases Covered** | Phase 1: Reconnaissance & Footprinting<br>Phase 2: Scanning & Network Discovery |
+
+## 1. Liability Disclaimer
+
+This assessment is strictly carried out within the scope authorized by the client.
