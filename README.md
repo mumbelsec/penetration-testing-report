@@ -119,4 +119,4 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 
 Cybersecurity Professional
 
-[LinkedIn](your-linkedin-url-here)
+[LinkedIn](https://www.linkedin.com/pulse/penetrationtestingreport-ibrahim-muhammad-9ztef)
