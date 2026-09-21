@@ -112,3 +112,9 @@ I learned from the exercise that information gathering is an important part of c
 I also learned that technical findings should be documented clearly. A good cybersecurity report should explain what was performed, what was discovered, what the observation means, what risk it may create, and what can be done to reduce that risk.
 
 Finally, I learned that reconnaissance and scanning must always be performed within an authorized scope. These activities were completed as part of the assigned educational cybersecurity lab.
+
+## Author
+
+**mumbelsec**
+Cybersecurity Professional
+[LinkedIn](your-linkedin-url-here)
