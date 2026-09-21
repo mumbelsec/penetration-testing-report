@@ -1,8 +1,6 @@
 # penetration-testing-report
 Penetration testing report - Footprinting and Scanning Phase (NetworkWalks)
 
-**W2-PM | Cyber Security | NetworkWalks**
-
 | Field | Details |
 |---|---|
 | **Pentester Name** | Ibrahim Muhammed Bello |
@@ -116,5 +114,9 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 ## Author
 
 **mumbelsec**
+
+**W2-PM | Cyber Security | NetworkWalks**
+
 Cybersecurity Professional
+
 [LinkedIn](your-linkedin-url-here)
